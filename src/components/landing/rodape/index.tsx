@@ -15,7 +15,7 @@ export default function Rodape() {
             <div className="flex flex-col md:flex-row md:justify-between items-center mt-14">
                 <RedesSociais />
                 <p className="text-zinc-100 mt-7 md:mt-0 text-center">
-                    <span className="font-bold">COD<span className="text-red-500">3</span>R</span> ® {new Date().getFullYear()} - Todos os direitos reservados
+                    <span className="font-bold">Alexandre Nolla</span> ® {new Date().getFullYear()} - Todos os direitos reservados
                 </p>
             </div>
         </Area>
