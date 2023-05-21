@@ -1,6 +1,6 @@
 <p align="center">
 
- ## Project
+ ## 💻 Project
 
 Web application for personal finance control with landing page and dashboard. The project uses Firebase for authentication and data storage.
 
