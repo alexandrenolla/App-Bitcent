@@ -1,15 +1,15 @@
 <p align="center">
 
- ## Sobre o Projeto
+ ## Project
 
-Bitcent é uma aplicação web para controle de finanças pessoais com landing page e dashboard. O projeto utiliza o Firebase para autenticação e armazenamento de dados.
+Web application for personal finance control with landing page and dashboard. The project uses Firebase for authentication and data storage.
 
-Projeto foi desenvolvido durante a **[Semana Tranformação.DEV]**, que ocorreu nos dias 8 a 14 de Maio de 2023.
+Project was developed during Cod3r's bootcamp, which took place on May 8-14, 2023.
 </p>
 
-## Tecnologias
+## Technologies
 
-Lista de tecnologias utilizadas no projeto:
+List of technologies used in the project:
 
 - [React](https://reactjs.org)
 - [Next.js](https://nextjs.org/)
@@ -18,9 +18,9 @@ Lista de tecnologias utilizadas no projeto:
 - [TailwindCSS](https://tailwindcss.com/)
 - [Mantine](https://mantine.dev/)
 
-## Executando o projeto
+## Running the project
 
-1. Clone o repositório:
+1. Clone the repository:
 
 ```bash
 $ git clone https://github.com/alexandrenolla/Web-App-Bitcent
@@ -28,9 +28,9 @@ $ cd Web-App-Bitcent
 ```
 
 
-2. Crie um projeto no Firebase e ative o Firestore e Autenticação com Google.
+2. Create a project in Firebase and enable Firestore and Google Authentication.
 
-- Permissões do Firestore:
+- Firestore permissions:
 
 ```
 rules_version = '2';
@@ -57,22 +57,22 @@ service cloud.firestore {
 
 
 
-3. É preciso criar um arquivo `.env.local` na raiz do projeto com as seguintes variáveis:
+3. You need to create a `.env.local` file in the project root with the following variables:
 
 ```bash
 NEXT_PUBLIC_FIREBASE_PROJECT_ID=
 NEXT_PUBLIC_FIREBASE_AUTH_DOMAIN=
 NEXT_PUBLIC_FIREBASE_API_KEY=
 ```
-Usar as credenciais do seu projeto no Firebase.
+Use your project's Firebase credentials.
 
-4. Dentro da pasta do projeto, execute os comandos abaixo:
+4. Inside the project folder, run the following commands:
 
 ```bash
-# Instalar as dependências
+# Install the dependencies
 $ npm install
 
-# Iniciar o projeto
+# Start the project
 $ npm run dev
 ```
-O app estará disponível no endereço http://localhost:3000.
+The app will be available at http://localhost:3000.
