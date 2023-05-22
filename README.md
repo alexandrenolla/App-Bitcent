@@ -23,7 +23,7 @@ List of technologies used in the project:
 1. Clone the repository:
 
 ```bash
-$ git clone https://github.com/alexandrenolla/Web-App-Bitcent
+$ git clone https://github.com/alexandrenolla/App-Bitcent
 $ cd Web-App-Bitcent
 ```
 
