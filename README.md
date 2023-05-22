@@ -24,7 +24,7 @@ List of technologies used in the project:
 
 ```bash
 $ git clone https://github.com/alexandrenolla/App-Bitcent
-$ cd Web-App-Bitcent
+$ cd App-Bitcent
 ```
 
 
